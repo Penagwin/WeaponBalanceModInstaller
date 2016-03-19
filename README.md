@@ -9,14 +9,15 @@
 
 For Windows users download and double click on:
 
- - Installer: [wbm-Installer.bat]()
- - Uninstaller: [wbm-Uninstaller.bat]()
+ - Installer: [wbm-Installer.bat](https://raw.githubusercontent.com/Penagwin/WeaponBalanceModInstaller/master/windows/wbm-Installer.bat)
+ - Uninstaller: [wbm-Uninstaller.bat](https://raw.githubusercontent.com/Penagwin/WeaponBalanceModInstaller/master/windows/wbm-Uninstaller.bat)
 
 For Linux users:
 
-- Installer: [Coming soon]()
-- Uninstaller: [Coming soon]()
+***Please note that the Linux installer hasn't been tested at all yet***
 
+- Installer: [wbm-Installer.sh](https://raw.githubusercontent.com/Penagwin/WeaponBalanceModInstaller/master/linux/wbm-Installer.sh)
+- Installer: [wbm-Uninstaller.sh](https://raw.githubusercontent.com/Penagwin/WeaponBalanceModInstaller/master/linux/wbm-Uninstaller.sh)
 Linux users need to 
 ```
     chmod +x wbm-Installer.sh
