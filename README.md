@@ -13,19 +13,21 @@ For Windows users download and double click on:
 
 For Linux users:
 
-***Please note that the Linux installer hasn't been tested at all yet. If it works then please tell me.***
+- Installer: [wbm-installer.sh](https://cdn.p-gn.xyz/sloth/wbm-installer.sh)
+- Uninstaller: [wbm-uninstaller.sh](https://cdn.p-gn.xyz/sloth/wbm-uninstaller.sh)
 
-- Installer: [wbm-Installer.sh](https://cdn.p-gn.xyz/sloth/wbm-Installer.sh)
-- Installer: [wbm-Uninstaller.sh](https://cdn.p-gn.xyz/sloth/wbm-Uninstaller.sh)
 Linux users need to 
 ```
-    chmod +x wbm-Installer.sh
-    ./wbm-Installer.sh
+    chmod +x wbm-installer.sh
+    ./wbm-unstaller.sh
 ```
 
 ##How it works
 
+###Windows
+
 ####Installer
+
  1. Creates the 'addons' folder if it doesn't already exist.
  2. Deletes the current version of the mod if it already exists.
  3. Downloads the latest version of the mod, and places it into the addons folder
@@ -34,3 +36,24 @@ Linux users need to
 ####Uninstaller
 
  1. Deletes the current version of the mod from the 'addons' folder.
+
+###Linux
+
+####Installer
+
+ If the mod is currently installed but deactivated (0 in the addonlist.txt file) the installer activates the mod.
+
+ If not (or the option -f is given):
+ 1. Creates the 'addons' folder if it doesn't already exist.
+ 2. Deletes the current version of the mod if it already exists.
+ 3. Downloads the latest version of the mod, and places it into the addons folder.
+
+
+####Uninstaller
+
+ Deactivates the mod (sets the mod to 0 in the addonlist.txt file)
+
+ If the option -f is given:
+ 1. Deletes the current version of the mod from the 'addons' folder.
+ 2. Deletes the addonlist.txt file.
+
